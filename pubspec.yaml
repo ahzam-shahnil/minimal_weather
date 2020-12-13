@@ -1,0 +1,45 @@
+name: Minimal
+description: Minimalistic Weather Application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  geolocator: ^6.1.4
+  flare_flutter: ^2.0.6
+  animated_text_kit: ^2.5.4
+  http: ^0.12.2
+  flutter_weather_bg: ^2.8.0
+  flutter_launcher_icons: ^0.8.1
+  rflutter_alert: ^1.1.0
+  
+flutter_icons:
+  image_path: "images/cloudy.png" 
+  android: true
+  ios: true
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+  - images/loader.flr
+
+  fonts:
+  - family: Spartan MB
+    fonts:
+    - asset: fonts/SpartanMB-Black.otf
+      weight: 900
+  - family: Prouct Sans
+    fonts:
+    - asset: fonts/Product Sans Regular.ttf
+      weight: 900
