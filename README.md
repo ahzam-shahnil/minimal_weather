@@ -2,10 +2,10 @@
 
 Weather app with loation and search ability.
 
+![](images/minimal.gif)
 ## Getting Started
 
 This project is a starting point for a Flutter application.
-![](minimal.gif)
 A few resources to get you started if this is your first Flutter project:
 
 - [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
